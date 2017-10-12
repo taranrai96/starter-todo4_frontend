@@ -22,3 +22,11 @@ Release Date: Oct 12, 2017 (Taran Rai)
 
 - Quick Patch for model file Tasks.php
 
+
+## Version 0.0.2
+
+Release Date: Oct 12, 2017 (Taran Rai)
+
+- Completed Job 2 - Homepage Features
+- Updated changelog.md
+

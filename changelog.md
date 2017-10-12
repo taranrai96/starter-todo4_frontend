@@ -16,3 +16,9 @@ Release Date: Oct 12, 2017 (Taran Rai)
 - Added changelog.md
 - Completed Job 1 - Database & Models
 
+## Version 0.0.1.1 (QUICK PATCH FOR JOB 1)
+
+Release Date: Oct 12, 2017 (Taran Rai)
+
+- Quick Patch for model file Tasks.php
+

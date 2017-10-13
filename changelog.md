@@ -30,3 +30,10 @@ Release Date: Oct 12, 2017 (Taran Rai)
 - Completed Job 2 - Homepage Features
 - Updated changelog.md
 
+
+## Version 0.0.3
+
+Release Date: Oct 13, 2017 (Chris Kwon)
+
+- Completed Job 3 - Ordered List Page Features
+- Updated changelog.md

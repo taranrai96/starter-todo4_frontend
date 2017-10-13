@@ -37,3 +37,11 @@ Release Date: Oct 13, 2017 (Chris Kwon)
 
 - Completed Job 3 - Ordered List Page Features
 - Updated changelog.md
+
+
+## Version 0.0.4
+
+Release Date: Oct 13, 2017 (Chris Kwon)
+
+- Completed Job 5 - Help Wanted Page Features
+- Updated changelog.md

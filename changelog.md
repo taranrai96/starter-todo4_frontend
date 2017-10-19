@@ -74,3 +74,11 @@ Release Date: Oct 19, 2017 (Chris Kwon)
 
 - Completed Job 7 - Simple User Roles
 - Updated changelog.md
+
+## Version 0.0.9
+
+Release Date: Oct 19, 2017 (Taran Rai)
+
+- Completed Job 8 - Provide for completing work
+- Updated changelog.md
+

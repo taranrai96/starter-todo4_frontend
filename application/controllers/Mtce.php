@@ -88,6 +88,9 @@ class Mtce extends Application {
 		$fields = array(
 			'ftask'      => form_label('Task description') . form_input('task', $task->task),
 			'fpriority'  => form_label('Priority') . form_dropdown('priority', $this->app->priority(), $task->priority),
+			'fsize' 	 => form_label('Task size') . form_input('size', $this->data['size']=$task->size),
+			'fgroup'	 => form_label('Task group') . form_input('group', $this->data['group']=$task->group),
+			'fstatus' 	 => form_label('Status') . form_input('status', $this->data['status']=$task->status),
 			'zsubmit'    => form_submit('submit', 'Update the TODO task'),
 		);
 		$this->data = array_merge($this->data, $fields);

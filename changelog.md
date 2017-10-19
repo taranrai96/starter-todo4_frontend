@@ -96,3 +96,12 @@ Release Date: Oct 19, 2017 (Taran Rai)
 
 - Completed Job 10 - Task Item Maintenance
 - Updated changelog.md
+
+
+## Version 0.0.12
+
+Release Date: Oct 19, 2017 (Chris Kwon)
+
+- Completed Job 11 - Polish the Task Item Maintenance
+- Patched 10.0 in Job 10
+- Updated changelog.md

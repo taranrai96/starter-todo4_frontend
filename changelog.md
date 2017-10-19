@@ -45,3 +45,63 @@ Release Date: Oct 13, 2017 (Chris Kwon)
 
 - Completed Job 5 - Help Wanted Page Features
 - Updated changelog.md
+
+## Version 0.0.5
+
+Release Date: Oct 19, 2017 (Taran Rai)
+
+- Bootstrap fix - Using Bootstrap 2
+- Updated changelog.md
+
+
+## Version 0.0.6
+
+Release Date: Oct 19, 2017 (Chris Kwon)
+
+- Completed Job 4 - Maintenance List
+- Updated changelog.md
+
+## Version 0.0.7
+
+Release Date: Oct 19, 2017 (Taran Rai)
+
+- Completed Job 6 - Pagination
+- Updated changelog.md
+
+## Version 0.0.8
+
+Release Date: Oct 19, 2017 (Chris Kwon)
+
+- Completed Job 7 - Simple User Roles
+- Updated changelog.md
+
+## Version 0.0.9
+
+Release Date: Oct 19, 2017 (Taran Rai)
+
+- Completed Job 8 - Provide for completing work
+- Updated changelog.md
+
+
+## Version 0.0.10
+
+Release Date: Oct 19, 2017 (Chris Kwon)
+
+- Completed Job 9 - Role-specific maintenance list
+- Updated changelog.md
+
+## Version 0.0.11
+
+Release Date: Oct 19, 2017 (Taran Rai)
+
+- Completed Job 10 - Task Item Maintenance
+- Updated changelog.md
+
+
+## Version 0.0.12
+
+Release Date: Oct 19, 2017 (Chris Kwon)
+
+- Completed Job 11 - Polish the Task Item Maintenance
+- Patched 10.0 in Job 10
+- Updated changelog.md

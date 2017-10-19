@@ -82,3 +82,10 @@ Release Date: Oct 19, 2017 (Taran Rai)
 - Completed Job 8 - Provide for completing work
 - Updated changelog.md
 
+
+## Version 0.0.10
+
+Release Date: Oct 19, 2017 (Chris Kwon)
+
+- Completed Job 9 - Role-specific maintenance list
+- Updated changelog.md

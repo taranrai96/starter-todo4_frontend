@@ -52,3 +52,11 @@ Release Date: Oct 19, 2017 (Taran Rai)
 
 - Bootstrap fix - Using Bootstrap 2
 - Updated changelog.md
+
+
+## Version 0.0.6
+
+Release Date: Oct 19, 2017 (Chris Kwon)
+
+- Completed Job 4 - Maintenance List
+- Updated changelog.md

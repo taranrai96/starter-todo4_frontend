@@ -89,3 +89,10 @@ Release Date: Oct 19, 2017 (Chris Kwon)
 
 - Completed Job 9 - Role-specific maintenance list
 - Updated changelog.md
+
+## Version 0.0.11
+
+Release Date: Oct 19, 2017 (Taran Rai)
+
+- Completed Job 10 - Task Item Maintenance
+- Updated changelog.md

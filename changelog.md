@@ -60,3 +60,10 @@ Release Date: Oct 19, 2017 (Chris Kwon)
 
 - Completed Job 4 - Maintenance List
 - Updated changelog.md
+
+## Version 0.0.7
+
+Release Date: Oct 19, 2017 (Taran Rai)
+
+- Completed Job 6 - Pagination
+- Updated changelog.md

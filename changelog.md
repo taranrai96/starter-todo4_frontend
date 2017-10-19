@@ -45,3 +45,10 @@ Release Date: Oct 13, 2017 (Chris Kwon)
 
 - Completed Job 5 - Help Wanted Page Features
 - Updated changelog.md
+
+## Version 0.0.5
+
+Release Date: Oct 19, 2017 (Taran Rai)
+
+- Bootstrap fix - Using Bootstrap 2
+- Updated changelog.md

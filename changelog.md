@@ -105,3 +105,12 @@ Release Date: Oct 19, 2017 (Chris Kwon)
 - Completed Job 11 - Polish the Task Item Maintenance
 - Patched 10.0 in Job 10
 - Updated changelog.md
+
+## Version 0.0.13
+
+Release Date: Nov 02, 2017 (Taran Rai)
+
+- Completed Steps 3-5 for Lab 7
+- Updated changelog.md
+
+

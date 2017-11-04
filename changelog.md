@@ -120,4 +120,11 @@ Release Date: Nov 04, 2017 (Chris Kwon)
 - Moved Entity.php to core folder
 - Updated changelog.md
 
+## Version 0.0.15
+
+Release Date: Nov 04, 2017 (Chris Kwon)
+
+- Bug fixed in TaskTest.php
+- Updated changelog.md
+
 

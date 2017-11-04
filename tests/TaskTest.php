@@ -10,17 +10,19 @@ if (! class_exists('PHPUnit_Framework_TestCase')) {
     {
       // Load CI instance normally
       $this->CI = &get_instance();
-	  $this->CI->load->model('Task');
+	  $this->CI->load->model('task');
     }
 	
 	protected function teardown() 
 	{
 		$this->CI = NULL;
 	}
-
+	
     public function testInput()
 	{
-		$this->CI->task->priority='low';
-		$this->assertEquals('low', $this->CI->task->priority);
+		$this->CI->task->priority=3;
+		$this->assertEquals(3, $this->CI->task->priority);
+		
     }
+	
   }

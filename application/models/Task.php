@@ -1,23 +1,34 @@
 <?php
 
 class Task extends Entity {
-	private $Priority = '';
+	private $priority = NULL;
+	
+	public function __get($property){
+        if(isset($this->$property)){
+            return $this->$property;
+        }
+        else{
+            return NULL;
+        }
+    }
 
 	public function setPriority($value) {
-		switch($value) {
-			case 'low':
-				$this->Priority=$value;
-				break;
-			case 'medium':
-				$this->Priority=$value;
-				break;
-			case 'high':
-				$this->Priority=$value;
-				break;
-			default:
-			break;
-			
-		}
-		return $this->Priority;
+		if(is_int($value) && $value < 4){
+            $this->priority = $value;
+        }
 	}
+	
+	public function setSize($value) {
+		if(is_int($value) && $value < 4){
+            $this->size = $value;
+        }
+	}
+	
+	public function setGroup($value) {
+		if(is_int($value) && $value < 5){
+            $this->group = $value;
+        }
+	}
+	
+	
 }

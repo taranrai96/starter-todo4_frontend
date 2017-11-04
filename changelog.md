@@ -97,7 +97,6 @@ Release Date: Oct 19, 2017 (Taran Rai)
 - Completed Job 10 - Task Item Maintenance
 - Updated changelog.md
 
-
 ## Version 0.0.12
 
 Release Date: Oct 19, 2017 (Chris Kwon)
@@ -111,6 +110,14 @@ Release Date: Oct 19, 2017 (Chris Kwon)
 Release Date: Nov 02, 2017 (Taran Rai)
 
 - Completed Steps 3-5 for Lab 7
+- Updated changelog.md
+
+## Version 0.0.14
+
+Release Date: Nov 04, 2017 (Chris Kwon)
+
+- Created Task.php and TaskTest.php
+- Moved Entity.php to core folder
 - Updated changelog.md
 
 

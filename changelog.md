@@ -127,4 +127,19 @@ Release Date: Nov 04, 2017 (Chris Kwon)
 - Bug fixed in TaskTest.php
 - Updated changelog.md
 
+## Version 0.0.16
+
+Release Date: Nov 04, 2017 (Taran Rai)
+
+- Added setter for 'task rule' in Task.php
+- Added test cases for 'task', 'size' and 'group'
+- Added .travis.yml file in the root folder
+- Updated changelog.md
+
+## Version 0.0.17
+
+Release Date: Nov 05, 2017 (Taran Rai)
+
+- Commented out all the "Fail" tasks from TaskTest.php to test Travis CI
+- Updated changelog.md
 

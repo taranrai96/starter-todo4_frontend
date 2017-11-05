@@ -97,7 +97,6 @@ Release Date: Oct 19, 2017 (Taran Rai)
 - Completed Job 10 - Task Item Maintenance
 - Updated changelog.md
 
-
 ## Version 0.0.12
 
 Release Date: Oct 19, 2017 (Chris Kwon)
@@ -105,3 +104,42 @@ Release Date: Oct 19, 2017 (Chris Kwon)
 - Completed Job 11 - Polish the Task Item Maintenance
 - Patched 10.0 in Job 10
 - Updated changelog.md
+
+## Version 0.0.13
+
+Release Date: Nov 02, 2017 (Taran Rai)
+
+- Completed Steps 3-5 for Lab 7
+- Updated changelog.md
+
+## Version 0.0.14
+
+Release Date: Nov 04, 2017 (Chris Kwon)
+
+- Created Task.php and TaskTest.php
+- Moved Entity.php to core folder
+- Updated changelog.md
+
+## Version 0.0.15
+
+Release Date: Nov 04, 2017 (Chris Kwon)
+
+- Bug fixed in TaskTest.php
+- Updated changelog.md
+
+## Version 0.0.16
+
+Release Date: Nov 04, 2017 (Taran Rai)
+
+- Added setter for 'task rule' in Task.php
+- Added test cases for 'task', 'size' and 'group'
+- Added .travis.yml file in the root folder
+- Updated changelog.md
+
+## Version 0.0.17
+
+Release Date: Nov 05, 2017 (Taran Rai)
+
+- Commented out all the "Fail" tasks from TaskTest.php to test Travis CI
+- Updated changelog.md
+

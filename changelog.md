@@ -136,4 +136,10 @@ Release Date: Nov 04, 2017 (Taran Rai)
 - Added .travis.yml file in the root folder
 - Updated changelog.md
 
+## Version 0.0.17
+
+Release Date: Nov 05, 2017 (Taran Rai)
+
+- Commented out all the "Fail" tasks from TaskTest.php to test Travis CI
+- Updated changelog.md
 

@@ -143,3 +143,10 @@ Release Date: Nov 05, 2017 (Taran Rai)
 - Commented out all the "Fail" tasks from TaskTest.php to test Travis CI
 - Updated changelog.md
 
+## Version 0.0.18
+
+Release Date: Nov 16, 2017 (Chris Kwon)
+
+- Created data/tasks.xml that holds the same kind of data as our existing CSV file
+- Updated changelog.md
+

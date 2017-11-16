@@ -150,3 +150,11 @@ Release Date: Nov 16, 2017 (Chris Kwon)
 - Created data/tasks.xml that holds the same kind of data as our existing CSV file
 - Updated changelog.md
 
+## Version 0.0.19
+
+Release Date: Nov 16, 2017 (Taran Rai)
+
+- Created XML_Model.php
+- Added XML_Model to MY_Model.php
+- Updated changelog.md
+

@@ -9,6 +9,7 @@
  */
 class XML_Model extends Memory_Model
 {
+
 //---------------------------------------------------------------------------
 //  Housekeeping methods
 //---------------------------------------------------------------------------
@@ -50,6 +51,7 @@ class XML_Model extends Memory_Model
 		foreach($xml->children() as $item) {
 			$record = new Task();
 			foreach($item->children() as $prop) {
+				$this->_fields[] = $prop->getName();
 				$record->{$prop->getName()} = (string)$prop;
 			}
 			$key = $record->{$this->_keyfield};
@@ -61,19 +63,22 @@ class XML_Model extends Memory_Model
 	 * Store the collection state appropriately, depending on persistence choice.
 	 * OVER-RIDE THIS METHOD in persistence choice implementations
 	 */
+
 	protected function store()
 	{
 		// rebuild the keys table
 		$this->reindex();
-		//---------------------
-		if (($handle = fopen($this->_origin, "w")) !== FALSE)
-		{
-			fputcsv($handle, $this->_fields);
-			foreach ($this->_data as $key => $record)
-				fputcsv($handle, array_values((array) $record));
-			fclose($handle);
+		$tasks = new SimpleXMLElement("<xml/>");
+		
+		foreach ($this->_data as $item) {
+			$task = $tasks->addChild('item');
+			foreach ($item as $key => $value){
+				$task->addChild($key,(string)$value);
+			}
 		}
-		// --------------------
+		$tasks->asXML("../data/tasks.xml");
 	}
+	
+	
 
 }

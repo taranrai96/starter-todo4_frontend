@@ -158,3 +158,11 @@ Release Date: Nov 16, 2017 (Taran Rai)
 - Added XML_Model to MY_Model.php
 - Updated changelog.md
 
+## Version 0.0.20
+
+Release Date: Nov 18, 2017 (Chris Kwon)
+
+- Create store() function in XML_Model
+- Edited load() function in XML_Model 
+- Updated changelog.md
+

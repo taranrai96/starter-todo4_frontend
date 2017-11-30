@@ -1,6 +1,12 @@
 <?php
 
 /**
+ * Modified to use REST client to get port data from our server.
+ */
+define('REST_SERVER', 'http://backend.local');  // the REST server host
+define('REST_PORT', $_SERVER['SERVER_PORT']);   // the port you are running the server on
+
+/**
  * CSV-persisted collection.
  * 
  * @author		JLP
@@ -66,17 +72,7 @@ class XML_Model extends Memory_Model
 
 	protected function store()
 	{
-		// rebuild the keys table
-		$this->reindex();
-		$tasks = new SimpleXMLElement("<xml/>");
 		
-		foreach ($this->_data as $item) {
-			$task = $tasks->addChild('item');
-			foreach ($item as $key => $value){
-				$task->addChild($key,(string)$value);
-			}
-		}
-		$tasks->asXML("../data/tasks.xml");
 	}
 	
 	

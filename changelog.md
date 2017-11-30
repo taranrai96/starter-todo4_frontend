@@ -166,3 +166,21 @@ Release Date: Nov 18, 2017 (Chris Kwon)
 - Edited load() function in XML_Model 
 - Updated changelog.md
 
+----------------------- FRONTEND -------------------------
+
+## Version 0.1.1
+
+Release Date: Nov 30, 2017 (Taran Rai)
+
+- Frontend "Database" Setup
+- Frontend Cruft?
+- Frontend Package
+- Down to Work
+- Tasks::load()
+- Tasks::store()
+- Tasks::get()
+- Tasks::delete()
+- Tasks::update($record)
+- Tasks::add($record)
+- Updated changelog.md
+

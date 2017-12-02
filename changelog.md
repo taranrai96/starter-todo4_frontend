@@ -184,3 +184,10 @@ Release Date: Nov 30, 2017 (Taran Rai)
 - Tasks::add($record)
 - Updated changelog.md
 
+## Version 0.1.2
+
+Release Date: Dec 02, 2017 (Taran Rai)
+
+- Patching Curl.php
+- Updated changelog.md
+
